@@ -1,0 +1,97 @@
+.tui-user-box{
+	background-color: #1678ff;
+	padding: 20rpx;
+}
+.tui-header-center{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: #FFFFFF;
+	.tui-avatar{
+		width: 88rpx;
+		height: 88rpx;
+		border-radius: 50%;
+		overflow: hidden;
+		.img{
+			width: 100%;
+			height: 100%;
+		}
+	}
+	.tui-info{
+		flex: 1;
+		padding-left: 20rpx;
+		padding-right: 30rpx;
+		font-size: 26rpx;
+		.tui-nickname{
+			margin-bottom: 8rpx;
+			.name{
+				font-size: 30rpx;
+				padding-right: 10rpx;
+			}
+		}
+	}
+	.tui-btn-edit{
+		.icon{
+			font-size: 40rpx;
+			cursor: pointer;
+			&:first-child{
+				margin-right: 50rpx;
+			}
+		}
+	}
+}
+
+.tui-header-btm{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 40rpx 0 20rpx;
+	.tui-btm-item{
+		flex: 1;
+		text-align: center;
+		color: #FFFFFF;
+		.tui-btm-num{
+			font-size: 42rpx;
+		}
+		.tui-btm-text{
+			font-size: 24rpx;
+			margin-top: 15rpx;
+		}
+	}
+}
+
+.tui-content-box{
+	padding: 30rpx 20rpx;
+	box-sizing: border-box;
+	.tui-box{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: start;
+		background-color: #FFFFFF;
+		border-radius: 20rpx;
+		padding: 20rpx 0;
+		margin-bottom: 20rpx;
+		.tui-navs-item{
+			width: 25%;
+			text-align: center;
+			padding: 20rpx 0;
+			overflow: hidden;
+			.tui-navs-icon{
+				width: 60rpx;
+				height: 60rpx;
+				margin: 0 auto 12rpx;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				.text{
+					font-size: 38rpx;
+					color: #a5a5a5;
+				}
+				.icon{
+					width: 100%;
+					height: 100%;
+				}
+			}
+		}
+	}
+}

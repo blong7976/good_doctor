@@ -1,0 +1,153 @@
+.content{
+	padding-bottom: env(safe-area-inset-bottom);
+}
+
+.tui-bg{
+	height: 80rpx;
+	background-color: #1678ff;
+}
+
+.tui-content-box{
+	margin-top: -50rpx;
+}
+.tui-header-center{
+	position: relative;
+	padding: 0 20rpx;
+	background-color: #FFFFFF;
+	border-top-left-radius: 20rpx;
+	border-top-right-radius: 20rpx;
+	.tui-header-top{
+		display: flex;
+		justify-content: space-between;
+		position: relative;
+		align-items: center;
+		.avatar{
+			height: 160rpx;
+			width: 160rpx;
+			border-radius: 50%;
+			position: relative;
+			top: -20rpx;
+		}
+		.tui-btn{
+			display: flex;
+			justify-content: start;
+			.btn{
+				height: 60rpx;
+				padding: 0 18rpx;
+				border-radius: 30rpx;
+				background-color:#1678ff ;
+				color: #FFFFFF;
+				text-align: center;
+				line-height: 60rpx;
+				margin-left: 30rpx;
+				&:first-child{
+					margin-left: 0;
+				}
+				.icon{
+					padding-right: 10rpx;
+				}
+			}
+		}
+	}
+	.tui-header-info{
+		.tui-nickname{
+			padding: 20rpx 0;
+			.name{
+				font-size: 42rpx;
+				color: #333;
+				font-weight: 600;
+			}
+			.tag{
+				font-size: 26rpx;
+				color: #a5a5a5;
+				margin-left: 20rpx;
+				&:first-child{
+					margin-left: 0;
+				}
+			}
+		}
+		.sign{
+			font-size: 26rpx;
+			color: #a5a5a5;
+			.icon{
+				margin-right: 10rpx;
+			}
+		}
+		.census{
+			padding: 20rpx 0;
+			display: flex;
+			align-items: center;
+			justify-content: start;
+			.item{
+				margin-left: 60rpx;
+				&:first-child{
+					margin-left: 0;
+				}
+				.num{
+					font-size: 32rpx;
+					color: #333;
+					margin-right: 20rpx;
+				}
+				.text{
+					font-size: 28rpx;
+					color: #a5a5a5;
+				}
+			}
+			
+		}
+		.des{
+			font-size: 28rpx;
+			color: #a5a5a5;
+			padding-bottom: 30rpx;
+			.icon{
+				font-size:18rpx;
+				margin-left: 30rpx;
+				position: relative;
+				display: inline-block;
+				transform: rotate(180deg);
+				&.lg180{
+					transform: rotate(360deg);
+				}
+			}
+			.ones{
+				text-overflow: ellipsis;
+				white-space: nowrap;
+				overflow: hidden;
+				display: inline-grid;
+				width: 90%;
+			}
+		}
+	}
+}
+
+	.topic-header{
+		padding: 0 40rpx;
+		display: flex;
+		justify-content: start;
+		align-items: baseline;
+		.tabs{
+			font-size: 28rpx;
+			margin-left: 60rpx;
+			line-height: 80rpx;
+			position: relative;
+			&:first-child{
+				margin-left: 0;
+			}
+			&.active{
+				font-size: 42rpx;
+				color: #333;
+				font-weight: 700;
+			}
+			&.active::after{
+				content: "";
+				width: 40rpx;
+				height: 6rpx;
+				background-color: #1678ff;
+				position: absolute;
+				bottom: 0;
+				left: 50%;
+				transform: translateX(-50%);
+				border-radius: 1.5px;
+			}
+		}
+	}

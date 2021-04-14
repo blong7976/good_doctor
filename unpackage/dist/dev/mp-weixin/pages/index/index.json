@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "肿瘤好医生",
+  "usingComponents": {
+    "list": "/components/list/list",
+    "cards": "/components/cards/cards"
+  }
+}

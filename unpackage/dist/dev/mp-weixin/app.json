@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/circle/circle",
+    "pages/news/news",
+    "pages/me/me",
+    "pages/expert/expert",
+    "pages/expertDetaile/expertDetaile"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "肿瘤好医生",
+    "navigationBarBackgroundColor": "#1678ff",
+    "backgroundColor": "#1678ff"
+  },
+  "tabBar": {
+    "color": "#a5a5a5",
+    "backgroundColor": "#FFFFFF",
+    "selectedColor": "#1678ff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/images/tab_1.png",
+        "selectedIconPath": "static/images/tab_1_active.png"
+      },
+      {
+        "pagePath": "pages/circle/circle",
+        "text": "圈子",
+        "iconPath": "static/images/tab_2.png",
+        "selectedIconPath": "static/images/tab_2_active.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "消息",
+        "iconPath": "static/images/tab_3.png",
+        "selectedIconPath": "static/images/tab_3_active.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "static/images/tab_4.png",
+        "selectedIconPath": "static/images/tab_4_active.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,124 @@
+/deep/page{
+	background-color: #FFFFFF !important; 
+}
+.content{
+	padding-bottom: env(safe-area-inset-bottom);
+}
+.seach-fixed-box{
+		position: fixed;
+		z-index: 999;
+		top: 0;
+		left: 0;
+		right: 0;
+		box-sizing: border-box;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		background-color: #1678ff;
+		padding: 20rpx;
+		color: #FFFFFF;
+		.seach-input-box{
+			flex: 1;
+			height: 80rpx;
+			background-color: #FFFFFF;
+			border-radius: 22rpx;
+			margin: 0 32rpx;
+			display: flex;
+			align-items: center;
+			justify-content: start;
+			color: #c7c7c7;
+			padding: 0 28rpx;
+			.icon{
+				font-size: 40rpx;
+				margin-right: 12rpx;
+			}
+			.placeholder{
+				font-size: 28rpx;
+				color: #c7c7c7;
+				padding-left: 10rpx;
+			}
+		}
+		.icon{
+			font-size: 56rpx;
+		}
+	}
+	
+	.tui-product-list{
+		margin-top: 120rpx;
+		.tui-pro-item{
+			padding: 35rpx 20rpx;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			position: relative;
+			background-color: #FFFFFF;
+			&::before{
+				content: "";
+				left: 20rpx;
+				right: 20rpx;
+				bottom: 0;
+				position: absolute;
+				height: 1px;
+				background-color: #e8e8e8;
+			}
+			&:last-child::before{
+				display: none !important;
+			}
+			.tui-avatar{
+				width: 100rpx;
+				height: 100rpx;
+				border-radius: 50%;
+				overflow: hidden;
+				.avatar{
+					width: 100%;
+					height: 100%;
+				}
+			}
+			.tui-info{
+				flex: 1;
+				padding-left: 20rpx;
+				padding-right: 60rpx;
+				.tui-nickname{
+					font-size: 30rpx;
+					color: #333;
+					.text{
+						font-size: 26rpx;
+						color: #a5a5a5;
+						padding-left: 12rpx;
+					}
+				}
+				.adds{
+					padding: 6rpx 0 6rpx;
+				}
+				.des{
+					font-size: 24rpx;
+					color: #a5a5a5;
+				}
+			}
+			.tui-btn-edit{
+				height: 55rpx;
+				width: 130rpx;
+				text-align: center;
+				border: 1px solid;
+				border-radius: 30rpx;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				&.ply{
+					color: #1678ff;
+				}
+				&.default{
+					color: #a5a5a5;
+				}
+				.icon{
+					font-size: 24rpx;
+				}
+				.text{
+					font-size: 24rpx;
+					padding-left: 10rpx;
+				}
+			}
+			
+		}
+	}
+	
