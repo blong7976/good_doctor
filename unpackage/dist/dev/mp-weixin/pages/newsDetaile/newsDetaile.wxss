@@ -3493,11 +3493,16 @@ u-dropdown.data-v-af799a6c {
   font-size: 40rpx;
 }
 .tui-operation .tui-operation-right .tui-operation-item .tui-badge.data-v-af799a6c {
-  color: #5677fc !important;
   position: absolute;
   top: -12px;
   padding: 4px !important;
   -webkit-transform: translateX(50%) scale(0.8);
           transform: translateX(50%) scale(0.8);
+  background-color: red;
+  border-radius: 50%;
+  line-height: 1;
+  color: #FFFFFF;
+  min-width: 45rpx;
+  text-align: center;
 }
 

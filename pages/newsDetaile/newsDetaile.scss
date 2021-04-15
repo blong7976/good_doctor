@@ -140,11 +140,16 @@
 					font-size: 40rpx;
 				}
 				.tui-badge{
-					color: #5677fc !important;
 					position: absolute;
 					top: -12px;
 					padding: 4px !important;
 					transform: translateX(50%) scale(0.8);
+					background-color: red;
+					border-radius: 50%;
+					line-height: 1;
+					color: #FFFFFF;
+					min-width: 45rpx;
+					text-align: center;
 				}
 			}
 		}
