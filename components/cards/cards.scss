@@ -34,6 +34,10 @@
 						margin-top: 8rpx;
 					}
 				}
+				.move .icon{
+					font-size: 6rpx;
+					color: #a5a5a5;
+				}
 			}
 			.item-content{
 				padding: 18rpx 0;
@@ -80,6 +84,11 @@
 						}
 						.des{
 							flex: 1;
+							 overflow: hidden;
+							text-overflow: ellipsis;
+							display: -webkit-box;
+							-webkit-line-clamp: 3;
+							-webkit-box-orient: vertical;
 						}
 					}
 					.flex-start{
@@ -94,6 +103,7 @@
 				padding: 0 40rpx;
 				.icon{
 					margin-right: 12rpx;
+					font-size: 26rpx;
 				}
 				.active{
 					color: #fd7b4f;

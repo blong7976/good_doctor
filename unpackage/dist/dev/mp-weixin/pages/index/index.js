@@ -130,7 +130,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var List = function List() {__webpack_require__.e(/*! require.ensure | components/list/list */ "components/list/list").then((function () {return resolve(__webpack_require__(/*! ../../components/list/list.vue */ 67));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var Cards = function Cards() {__webpack_require__.e(/*! require.ensure | components/cards/cards */ "components/cards/cards").then((function () {return resolve(__webpack_require__(/*! ../../components/cards/cards.vue */ 74));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var List = function List() {__webpack_require__.e(/*! require.ensure | components/list/list */ "components/list/list").then((function () {return resolve(__webpack_require__(/*! ../../components/list/list.vue */ 101));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var Cards = function Cards() {__webpack_require__.e(/*! require.ensure | components/cards/cards */ "components/cards/cards").then((function () {return resolve(__webpack_require__(/*! ../../components/cards/cards.vue */ 108));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
 
 
 
@@ -181,7 +181,7 @@ __webpack_require__.r(__webpack_exports__);
       navs: [{
         icon: "nav1.png",
         name: "资讯",
-        href: "" },
+        href: "/pages/news/news" },
       {
         icon: "nav2.png",
         name: "病例",
@@ -317,7 +317,7 @@ __webpack_require__.r(__webpack_exports__);
             job: "主任医师",
             createdtime: "2021-04-06",
             title: "三叉神经痛发病机制及伽马刀治疗",
-            des: "三叉神经痛(trigeminal neuralgia，TN)是脑神经疾病或神经源性疼痛.... 一、TN病理学基础．病因学和发",
+            des: "三叉神经痛(trigeminal neuralgia，TN)是脑神经疾病或神经源性疼痛.... 一、TN病理学基础．病因学和发是脑神经疾病或神经源性疼痛.... 一、TN病理学基础．病因学和发是脑神经疾病或神经源性疼痛.... 一、TN病理学基础．病因学和发是脑神经疾病或神经源性疼痛.... 一、TN病理学基础．病因学和发",
             newlogo: idx == 1 ? "../../static/images/new-logo.png" : "",
             image_set: idx == 2 ? [{ img: "../../static/images/new_set_img1.png" }, { img: "../../static/images/new_set_img2.png" }, { img: "../../static/images/new_set_img3.png" }] : [],
             video_set: idx == 3 ? [

@@ -105,11 +105,11 @@
 /******/
 /******/
 /******/ 		// mini-css-extract-plugin CSS loading
-/******/ 		var cssChunks = {"components/cards/cards":1,"components/list/list":1,"uview-ui/components/u-loadmore/u-loadmore":1,"uview-ui/components/u-line/u-line":1,"uview-ui/components/u-loading/u-loading":1};
+/******/ 		var cssChunks = {"components/cards/cards":1,"components/list/list":1,"uview-ui/components/u-loadmore/u-loadmore":1,"uview-ui/components/u-tabs/u-tabs":1,"uview-ui/components/u-line/u-line":1,"uview-ui/components/u-loading/u-loading":1,"uview-ui/components/u-badge/u-badge":1};
 /******/ 		if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 		else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 			promises.push(installedCssChunks[chunkId] = new Promise(function(resolve, reject) {
-/******/ 				var href = "" + ({"components/cards/cards":"components/cards/cards","components/list/list":"components/list/list","uview-ui/components/u-loadmore/u-loadmore":"uview-ui/components/u-loadmore/u-loadmore","uview-ui/components/u-line/u-line":"uview-ui/components/u-line/u-line","uview-ui/components/u-loading/u-loading":"uview-ui/components/u-loading/u-loading"}[chunkId]||chunkId) + ".wxss";
+/******/ 				var href = "" + ({"components/cards/cards":"components/cards/cards","components/list/list":"components/list/list","uview-ui/components/u-loadmore/u-loadmore":"uview-ui/components/u-loadmore/u-loadmore","uview-ui/components/u-tabs/u-tabs":"uview-ui/components/u-tabs/u-tabs","uview-ui/components/u-line/u-line":"uview-ui/components/u-line/u-line","uview-ui/components/u-loading/u-loading":"uview-ui/components/u-loading/u-loading","uview-ui/components/u-badge/u-badge":"uview-ui/components/u-badge/u-badge"}[chunkId]||chunkId) + ".wxss";
 /******/ 				var fullhref = __webpack_require__.p + href;
 /******/ 				var existingLinkTags = document.getElementsByTagName("link");
 /******/ 				for(var i = 0; i < existingLinkTags.length; i++) {

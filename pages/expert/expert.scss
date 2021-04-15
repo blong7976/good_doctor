@@ -93,6 +93,14 @@
 				.des{
 					font-size: 24rpx;
 					color: #a5a5a5;
+					word-break: break-all;
+					word-wrap: break-word;
+					overflow: hidden;
+					text-overflow: ellipsis;
+					display: -webkit-box;
+					-webkit-box-orient: vertical;
+					-webkit-line-clamp: 2;
+					box-sizing: border-box;
 				}
 			}
 			.tui-btn-edit{

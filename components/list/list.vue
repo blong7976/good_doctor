@@ -2,10 +2,13 @@
 	<view>
 		<view class="list" >
 			<view class="item" v-for="(m,index) in list" :key="index">
-				<image :src="m.image_set[0].imagePath" mode="scaleToFill" class="img"></image>
+				<view class="img-box">
+					<image :src="m.image_set[0].imagePath" mode="scaleToFill" class="img"></image>
+				</view>
 				<view class="item-content">
 					<view class="title">
-						{{m.title}}
+						<view class="text">{{m.title}}</view>
+						<view class="font_family icon-gengduo icon" v-show="m.edit"></view>
 					</view>
 					<view class="des">
 						{{m.des}}

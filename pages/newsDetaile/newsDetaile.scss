@@ -1,0 +1,151 @@
+.tui-news-cus{
+	padding: 35rpx 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+	background-color: #FFFFFF;
+	.tui-avatar{
+		width: 100rpx;
+		height: 100rpx;
+		border-radius: 50%;
+		overflow: hidden;
+		.avatar{
+			width: 100%;
+			height: 100%;
+		}
+	}
+	.tui-info{
+		flex: 1;
+		padding-left: 20rpx;
+		padding-right: 60rpx;
+		.tui-nickname{
+			font-size: 30rpx;
+			color: #333;
+			.text{
+				font-size: 26rpx;
+				color: #a5a5a5;
+				padding-left: 12rpx;
+			}
+		}
+		.adds{
+			padding: 6rpx 0 6rpx;
+		}
+		.des{
+			font-size: 24rpx;
+			color: #a5a5a5;
+			word-break: break-all;
+			word-wrap: break-word;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			display: -webkit-box;
+			-webkit-box-orient: vertical;
+			-webkit-line-clamp: 2;
+			box-sizing: border-box;
+		}
+	}
+	.tui-btn-edit{
+		height: 55rpx;
+		width: 130rpx;
+		text-align: center;
+		border: 1px solid;
+		border-radius: 30rpx;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		&.ply{
+			color: #1678ff;
+		}
+		&.default{
+			color: #a5a5a5;
+		}
+		.icon{
+			font-size: 24rpx;
+		}
+		.text{
+			font-size: 24rpx;
+			padding-left: 10rpx;
+		}
+	}
+	
+}
+
+.section{
+	padding: 20rpx;
+	background-color: #FFFFFF;
+	.tui-news-title{
+		font-size: 36rpx;
+	}
+	.des-box{
+		.title{
+			font-size: 28rpx;
+			color: #000;
+			padding-bottom: 18rpx;
+		}
+		.des{
+			font-size: 24rpx;
+			color: #676767;
+			line-height: 1.5;
+		}
+	}
+}
+
+
+	.tui-operation{
+		width: 100%;
+		height: 100rpx;
+		overflow: hidden;
+		background: #fff;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		z-index: 99999;
+		padding-bottom: env(safe-area-inset-bottom);
+		box-sizing: content-box;
+		.tui-operation-left{
+			.tui-btn-comment{
+				height: 70rpx;
+				width: 262rpx;
+				background: #ededed;
+				color: #999;
+				border-radius: 35rpx;
+				font-size: 14px;
+				display: flex;
+				align-items: center;
+				padding-left: 10px;
+				box-sizing: border-box;
+				padding-top: 0;
+				margin-left: 15px;
+				.icon{
+					margin-right: 15rpx;
+				}
+			}
+		}
+		.tui-operation-right{
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			.tui-operation-item{
+				flex: 1;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				flex-direction: column;
+				position: relative;
+				width: 100rpx;
+				.icon{
+					font-size: 40rpx;
+				}
+				.tui-badge{
+					color: #5677fc !important;
+					position: absolute;
+					top: -12px;
+					padding: 4px !important;
+					transform: translateX(50%) scale(0.8);
+				}
+			}
+		}
+	}

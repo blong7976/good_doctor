@@ -2,10 +2,12 @@
   "pages": [
     "pages/index/index",
     "pages/circle/circle",
-    "pages/news/news",
     "pages/me/me",
     "pages/expert/expert",
-    "pages/expertDetaile/expertDetaile"
+    "pages/expertDetaile/expertDetaile",
+    "pages/message/message",
+    "pages/news/news",
+    "pages/newsDetaile/newsDetaile"
   ],
   "subPackages": [],
   "window": {
@@ -32,7 +34,7 @@
         "selectedIconPath": "static/images/tab_2_active.png"
       },
       {
-        "pagePath": "pages/news/news",
+        "pagePath": "pages/message/message",
         "text": "消息",
         "iconPath": "static/images/tab_3.png",
         "selectedIconPath": "static/images/tab_3_active.png"

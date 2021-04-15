@@ -11,10 +11,6 @@
             "style" : {}
         }
         ,{
-            "path" : "pages/news/news",
-            "style" : {}
-        }
-        ,{
             "path" : "pages/me/me",
             "style" : {}
         }
@@ -27,6 +23,22 @@
         ,{
             "path" : "pages/expertDetaile/expertDetaile",
             "style" : {}
+        }
+        ,{
+            "path" : "pages/message/message",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/news/news",
+            "style" : {
+				"navigationBarTitleText": "资讯"
+			}
+        }
+        ,{
+            "path" : "pages/newsDetaile/newsDetaile",
+            "style" : {
+				"navigationBarTitleText": "资讯详情"
+			}
         }
     ],
 	"globalStyle": {
@@ -50,7 +62,7 @@
 			"iconPath": "static/images/tab_2.png",
 			"selectedIconPath": "static/images/tab_2_active.png"
 		},{
-			"pagePath":"pages/news/news",
+			"pagePath":"pages/message/message",
 			"text": "消息",
 			"iconPath": "static/images/tab_3.png",
 			"selectedIconPath": "static/images/tab_3_active.png"
@@ -61,11 +73,7 @@
 			"selectedIconPath": "static/images/tab_4_active.png"
 		}]
 	},
-	 "easycom": {
-		// 下载安装的方式需要前面的"@/"，npm安装的方式无需"@/"
-		// 下载安装方式
+	"easycom": {
 		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
-		// npm安装方式
-		// "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
 	}
 }

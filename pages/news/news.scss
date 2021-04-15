@@ -1,0 +1,48 @@
+/deep/page{
+	background-color: #FFFFFF !important; 
+}
+.content{
+	padding-bottom: env(safe-area-inset-bottom);
+}
+.seach-fixed-box{
+		position: fixed;
+		z-index: 999;
+		top: 0;
+		left: 0;
+		right: 0;
+		box-sizing: border-box;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		background-color: #1678ff;
+		padding: 20rpx;
+		color: #FFFFFF;
+		.seach-input-box{
+			flex: 1;
+			height: 80rpx;
+			background-color: #FFFFFF;
+			border-radius: 22rpx;
+			margin: 0 32rpx;
+			display: flex;
+			align-items: center;
+			justify-content: start;
+			color: #c7c7c7;
+			padding: 0 28rpx;
+			.icon{
+				font-size: 40rpx;
+				margin-right: 12rpx;
+			}
+			.placeholder{
+				font-size: 28rpx;
+				color: #c7c7c7;
+				padding-left: 10rpx;
+			}
+		}
+		.icon{
+			font-size: 56rpx;
+		}
+	}
+	
+	.offset-top-120{
+		margin-top: 120rpx;
+	}

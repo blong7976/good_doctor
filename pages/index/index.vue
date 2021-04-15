@@ -49,7 +49,7 @@
 				navs: [{
 					icon:"nav1.png",
 					name:"资讯",
-					href:""
+					href:"/pages/news/news"
 				},{
 					icon:"nav2.png",
 					name:"病例",
@@ -185,7 +185,7 @@
 					  	job:"主任医师",
 					  	createdtime:"2021-04-06",
 					  	title:"三叉神经痛发病机制及伽马刀治疗",
-					  	des:"三叉神经痛(trigeminal neuralgia，TN)是脑神经疾病或神经源性疼痛.... 一、TN病理学基础．病因学和发",
+					  	des:"三叉神经痛(trigeminal neuralgia，TN)是脑神经疾病或神经源性疼痛.... 一、TN病理学基础．病因学和发是脑神经疾病或神经源性疼痛.... 一、TN病理学基础．病因学和发是脑神经疾病或神经源性疼痛.... 一、TN病理学基础．病因学和发是脑神经疾病或神经源性疼痛.... 一、TN病理学基础．病因学和发",
 					  	newlogo:idx == 1 ?"../../static/images/new-logo.png":"",
 					  	image_set:idx == 2 ? [{img:"../../static/images/new_set_img1.png"},{img:"../../static/images/new_set_img2.png"},{img:"../../static/images/new_set_img3.png"}] :[] ,
 						video_set:idx == 3 ?[

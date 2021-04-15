@@ -13,6 +13,9 @@
 							{{m.createdtime}}
 						</view>
 					</view>
+					<view class="move" v-show="m.move">
+						<text class="font_family icon-gengduo icon"></text>
+					</view>
 				</view>
 				<view class="item-content">
 					<view class="title">
@@ -39,7 +42,7 @@
 						</view>
 						<view class="block flex-start" v-else>
 							<view class="des">
-								{{m.des}}
+								<ellipsis :content="m.des" rows></ellipsis>
 							</view>
 						</view>
 					</view>
@@ -65,6 +68,7 @@
 </template>
 
 <script>
+
 	export default {
 		name: "Cards",
 		props: [
